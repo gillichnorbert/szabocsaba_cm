@@ -1,0 +1,22 @@
+<nav class="navbar" [class.scrolled]="scrolled || menuOpen">
+  <div class="container">
+    <a class="logo" href="#">
+      <img src="assets/img/logo_web.png" alt="">
+    </a>
+
+
+    <button class="menu-toggle" (click)="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <ul class="nav-links" [class.open]="menuOpen">
+  <li><a href="#kezdolap" (click)="scrollToSection($event, 'home')">Kezdőlap</a></li>
+  <li><a href="#rolunk" (click)="scrollToSection($event, 'about')">Rólam</a></li>
+  <li><a href="#szolgaltatasok" (click)="scrollToSection($event, 'services')">Szolgáltatások</a></li>
+  <li><a href="#kapcsolat" (click)="scrollToSection($event, 'contact')">Kapcsolat</a></li>
+</ul>
+
+  </div>
+</nav>

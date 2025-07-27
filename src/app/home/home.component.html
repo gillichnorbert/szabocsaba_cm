@@ -1,0 +1,101 @@
+<div class="hero-section" id="home">
+  <div class="card glass">
+    <h1>Szabó Csaba – Ceremóniamester & Esküvői DJ</h1>
+    <h2 class="h5">Varázslatos esküvők, felejthetetlen emlékek – zene, hangulat és lebonyolítás egy kézből</h2>
+  </div>
+  <ngb-carousel [interval]="5000" [pauseOnHover]="false" [wrap]="true" class="carousel">
+    <ng-template ngbSlide>
+      <img src="assets/img/slide1.jpg" class="d-block w-100" alt="Ceremóniamester Szabó Csaba esküvőn">
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="assets/img/slide2.jpg" class="d-block w-100" alt="Ceremóniamester munka közben">
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="assets/img/slide3.jpg" class="d-block w-100" alt="DJ Szabó Csaba a keverőpultnál">
+    </ng-template>
+  </ngb-carousel>
+</div>
+
+<section id="about">
+  <div class="container">
+    <h2 class="text-center mb-4 h1">Ismerj meg!</h2>
+    <div class="row">
+      <div class="col">
+        <p>Üdvözöllek! <strong>Szabó Csaba</strong> vagyok, tapasztalt <strong>ceremóniamester</strong> és <strong>esküvői DJ</strong>. Több mint <strong>25 éve</strong> teszem felejthetetlenné a nagy napokat – legyen szó <strong>esküvőről</strong>, <strong>céges rendezvényről</strong> vagy <strong>születésnapról</strong>. Nálam a professzionalizmus és a jó hangulat kéz a kézben jár.</p>
+        <h3 class="h5"><strong>3M garancia minden eseményen:</strong></h3>
+        <ul>
+          <li><strong>Megbízható</strong> – pontos érkezés, profi hozzáállás</li>
+          <li><strong>Magabiztos</strong> – rutinos műsorvezetés, biztos fellépés</li>
+          <li><strong>Mindent megoldok</strong> – rugalmas hozzáállás bármilyen helyzetben</li>
+        </ul>
+      </div>
+      <div class="col">
+        <img src="assets/img/szabocsaba.jpg" alt="Ceremóniamester Szabó Csaba portré" class="img-fluid rounded-circle mb-3 d-block mx-auto" style="max-width: 300px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="statisztika" class="bg-dark text-white py-5">
+  <div class="container text-center" #counterSection>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let stat of counters">
+        <h2 class="display-4">{{ stat.current }}{{ stat.text }}</h2>
+        <p class="lead">{{ stat.label }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Szolgáltatások</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h5 class="icon">🔊 Hang- és fénytechnika</h5>
+        <p>Modern <strong>hangtechnika</strong> és látványos <strong>fénytechnika</strong> – kristálytiszta hangzás, vizuális élmény.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="icon">🎵 Esküvői DJ szolgáltatás</h5>
+        <p>25 év zenei tapasztalat: retro, mulatós, mai slágerek – garantáltan megtelik a tánctér!</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="icon">🎤 Ceremóniamester / Műsorvezető</h5>
+        <p>Forgatókönyv koordinálás, programvezetés, időzítés – a nagy nap gördülékenyen halad.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="icon">📸 Fotósarok (AJÁNDÉK 2025-ben!)</h5>
+        <p>Instax fotósarok vicces kellékekkel – garantált nevetés és spontán pillanatok!</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="icon">💼 Céges rendezvények, szülinapok</h5>
+        <p>Rendezvény-DJ, műsorvezetés, technikai háttér – egy kézből, profi lebonyolítással.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="container text-center">
+    <h2 class="mb-4">Galéria</h2>
+    <p>Valódi esküvői pillanatok, boldog párok, vidám vendégek – nézd meg az eseményeim hangulatát képekben!</p>
+    <a href="#" class="btn btn-gold-outline">Galéria megtekintése</a>
+  </div>
+</section>
+
+<section id="contact" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Kapcsolat</h2>
+    <p class="text-center">Keress bizalommal, egyeztessük a részleteket, és foglaljuk le a dátumot!</p>
+    <div class="text-center">
+      <p><strong>Cím:</strong> Hévízgyörk, 2192, Magyarország</p>
+      <p><strong>E-mail:</strong> <a href="mailto:eskuvozes@gmail.com">eskuvozes&#64;gmail.com</a></p>
+      <p><strong>Telefon:</strong> <a href="tel:+36706633889">+36 70 663 3889</a></p>
+      <p><strong>Elérhető vagyok:</strong> Viber, Messenger</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Szabó Csaba – Ceremóniamester & DJ | Esküvők, Rendezvények, Zene</p>
+</footer>
