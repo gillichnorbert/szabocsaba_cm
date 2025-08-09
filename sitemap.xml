@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Főoldal -->
+  <url>
+    <loc>https://ceremoniamestercsaba.hu/</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- Product oldal -->
+  <url>
+    <loc>https://ceremoniamestercsaba.hu/galeria</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
