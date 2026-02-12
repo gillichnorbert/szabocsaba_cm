@@ -7,10 +7,20 @@
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
+    <url>
+    <loc>https://ceremoniamestercsaba.hu/fooldal</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
 
   <!-- Galéria oldal -->
   <url>
     <loc>https://ceremoniamestercsaba.hu/galeria</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+    <url>
+    <loc>https://ceremoniamestercsaba.hu/csomag-arak</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
